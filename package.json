@@ -1,0 +1,27 @@
+{
+  "name": "losttype-fonts.css",
+  "version": "0.0.1",
+  "description": "@font-face declarations for every web font in the Lost Type Co-op catalogue.",
+  "homepage": "http://opensource.losttype.com",
+  "author": "Kenneth Ormandy <hello@kennethormandy.com> (http://kennethormandy.com)",
+  "license": "MIT",
+  "private": true,
+  "repository": "git@github.com:losttype/fonts.css.git",
+  "keywords": [
+    "font",
+    "type",
+    "webfont",
+    "typography",
+    "metadata",
+    "ecosystem:losttype"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^2.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified…yet! Pull requests on losttype/fonts.css are greatly appreciated.\" && exit 1",
+    "build-css": "node-sass fonts.scss fonts.css --output-style compressed",
+    "build": "build-css"
+  }
+}
